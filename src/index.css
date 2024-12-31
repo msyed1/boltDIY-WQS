@@ -1,0 +1,42 @@
+/* Add these styles to the existing CSS */
+
+.add-sensor {
+  background: var(--background-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.add-sensor h4 {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.sensors-list {
+  background: var(--background-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.sensor-info {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.sensor-info div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sensor-info strong {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+
+.edit-form {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* ... (rest of the existing CSS remains the same) */
